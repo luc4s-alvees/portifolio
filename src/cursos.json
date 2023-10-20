@@ -1,0 +1,446 @@
+{
+    "cursos": [
+      {
+        "nome": "Acessibilidade web parte 1: Tornando seu front-end inclusivo",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "",
+        "data_conclusao": "20 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQHDr5TSLXacCQ/feedshare-shrink_2048_1536/0/1649873091326?e=1700092800&v=beta&t=qFFaJub58V0SX6Wm1Tbq7yWtVHW2zsjD5vNLx0D2zoQ"
+      },
+      {
+        "nome": "Arquitetura css: Descomplicando os problemas",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "",
+        "data_conclusao": "25 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4E22AQGs9ry71UsWiw/feedshare-shrink_2048_1536/0/1655224905864?e=1700092800&v=beta&t=hbe13Q9GX1iUsPzCWuwpi1kJuCtQcrhcHtR3TBFV1aU"
+      },
+      {
+        "nome": "Autenticação no Django: Formulários, Requisições e Mensagens",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Django",
+        "data_conclusao": "10 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQEZsvlQDNxAQA/feedshare-shrink_800/0/1662164608850?e=1700092800&v=beta&t=j5uykVUWc6zM6wBmdM-1-eMi53x514u3TK1m6vdtRNY"
+      },
+      {
+        "nome": "Avançando com PHP: Arrays, Strings, função e Web",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "PHP",
+        "data_conclusao": "5 de outubro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "Boas práticas no Django: apps, pastas e paginação",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Django",
+        "data_conclusao": "15 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQFsKGcbVS1iGg/feedshare-shrink_800/0/1662164872019?e=1700092800&v=beta&t=q5cSPPwkF1DWYzbPKMRGXbnJTib9PAaofmLENMmvezo"
+      },
+      {
+        "nome": "CSS: Simplificando layouts",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "",
+        "data_conclusao": "12 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4E22AQGhj2V7NFBMrg/feedshare-shrink_800/0/1656525762104?e=1700092800&v=beta&t=drRacOFrASMleHFHEl3O3H1Gync9gx0R8cuMAeA_fNM"
+      },
+      {
+        "nome": "Django: Modelos, Rotas e Views",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Django",
+        "data_conclusao": "8 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQFlCbBtZVDYWQ/feedshare-shrink_800/0/1661357778866?e=1700092800&v=beta&t=aRzo4-BSEGhdwdywmrdJStR7xCN0zwPnow1jXnPPbzU"
+      },
+      {
+        "nome": "Expressões regulares: capturando textos de forma mágica",
+        "tipo": "Gestão",
+        "plataforma": "Alura",
+        "tecnologia": "",
+        "data_conclusao": "30 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQFcoQWkxeOu1A/feedshare-shrink_800/0/1658762293424?e=1700092800&v=beta&t=OF23mBSP1rHhvr6PRLRCKmvJCEn80S8VMxyMRMSSqSE"
+      },
+      {
+        "nome": "Flexbox: Posicione elementos na tela",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "",
+        "data_conclusao": "22 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/sync/D4E27AQFBKwFgmht2ew/articleshare-shrink_800/0/1696595331568?e=1697850000&v=beta&t=MmIFZer8LsJX652OI2-wau0gS98SEa1e8mKBzqdJNYs"
+      },
+      {
+        "nome": "Formulários no Django 3: Criando e validando dados",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Django",
+        "data_conclusao": "5 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQFt0u3uqeqJuw/feedshare-shrink_1280/0/1662165824796?e=1700092800&v=beta&t=sNVI-d8EOtEMUZXE-wUfbQLPQuaIt1-ktlQasyYA1hg"
+      },
+      {
+        "nome": "Git e GitHub: Controle e compartilhe seu código",
+        "tipo": "Gestão",
+        "plataforma": "Alura",
+        "tecnologia": "Git, GitHub",
+        "data_conclusao": "18 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQGAe3qLOgCoXg/feedshare-shrink_800/0/1646176118483?e=1700092800&v=beta&t=GIun1dKihZWMdFe0i6ulp9aC6WoFJTpFC6G6f2R0cIQ"
+      },
+      {
+        "nome": "HTML5 e CSS3 Parte 1: A primeira página da web",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "HTML5, CSS3",
+        "data_conclusao": "10 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQFnMDVb4HTDdg/feedshare-shrink_800/0/1646934156312?e=1700092800&v=beta&t=6BQlm09025XE_93x28c1icoaL8eH6gnwxazbq3uFrN0"
+      },
+      {
+        "nome": "HTML5 e CSS3 Parte 2: Posicionamento, listas e navegação",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "HTML5, CSS3",
+        "data_conclusao": "15 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQFTLFwHTE8B_g/feedshare-shrink_800/0/1647208941785?e=1700092800&v=beta&t=VBOsX9xcDXK3DmRjTjgLCEtV6wZi_8qhY0Sc64bM2NA"
+      },
+      {
+        "nome": "HTML5 e CSS3 Parte 3: Trabalhando com formulários e tabelas",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "HTML5, CSS3",
+        "data_conclusao": "20 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQHEPHbL0TX3kA/feedshare-shrink_2048_1536/0/1649773036136?e=1700092800&v=beta&t=qhEaq7Of8g2ueFOAyaGNNFSDov-qKmM72dLyATPYhFg"
+      },
+      {
+        "nome": "HTML5 e CSS3 Parte 4: Avançando no css",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "HTML5, CSS3",
+        "data_conclusao": "25 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQGe0AhGmMh_TQ/feedshare-shrink_2048_1536/0/1649780250468?e=1700092800&v=beta&t=20AkWIHdbctnPR7QmMGkki_wvtM-UoZc4Gdurqdwkfw"
+      },
+      {
+        "nome": "Integração de modelos no Django: Filtros, buscas e admin",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Django",
+        "data_conclusao": "8 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQEuHPjXceNS_A/feedshare-shrink_800/0/1661358412908?e=1700092800&v=beta&t=u0gEQzNiG2-mI9S6TP43cJLMz44P9M2nRS286kiKZts"
+      },
+      {
+        "nome": "JavaScript na Web: Armazenado dados no navegador",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "15 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "JavaScript na Web: validação de Formulários e HTML5",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "18 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQF4WKgzXBymKw/feedshare-shrink_800/0/1658948816276?e=1700092800&v=beta&t=ufVGDn3LCc_xZlzrhBZjbtzAYFzr2VL-_1LMJH1rTHo"
+      },
+      {
+        "nome": "JavaScript para Web: Crie páginas dinâmicas",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "22 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQE2aQGKV9A-sQ/feedshare-shrink_800/0/1658505947543?e=1700092800&v=beta&t=tOHqtQSui4or-IhKp7SvZWwS27Z8jXz7nvo3m1NWCMI"
+      },
+      {
+        "nome": "JavaScript: Explorando a linguagem",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "10 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/sync/D4E27AQEGBEE82d-Bjg/articleshare-shrink_800/0/1685994703914?e=1697850000&v=beta&t=1bLy9DeUPMsgqaDF-xKv1YvhdQgrFfsomDcdoWYh6lw"
+      },
+      {
+        "nome": "JavaScript: Interfaces e herança em orientação a objetos",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "12 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "JavaScript: Manipulando o DOM",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "5 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "JavaScript: Primeiros passos com a linguagem",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "30 de agosto de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQG485B_i8EghA/feedshare-shrink_2048_1536/0/1650654886517?e=1700092800&v=beta&t=-KHT8OYG5suxq5Vjd4MBzBjZGhEGgoAYWuG5X8nliwU"
+      },
+      {
+        "nome": "JavaScript: Programando a orientação a objetos",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "2 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C5622AQHTY7GzNdv81A/feedshare-shrink_800/0/1652970748778?e=1700092800&v=beta&t=BIO6vfs89XiAULycVI7y1n4dwXFNAU8x2zlN2-EreA8"
+      },
+      {
+        "nome": "JavaScript: Validações e reconhecimento de voz",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "JavaScript",
+        "data_conclusao": "5 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "Layouts responsivos: Trabalhando com Layouts mobile",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "CSS3",
+        "data_conclusao": "28 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C5622AQEtgPeccr3I7g/feedshare-shrink_800/0/1655911032204?e=1700092800&v=beta&t=7JozwTK22t3riemGjBDWvEBb-QY_pUyoZoZ65DRekpY"
+      },
+      {
+        "nome": "Nest.js: Criando uma API Restful",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Nest.js",
+        "data_conclusao": "12 de outubro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "PHP: Conceitos, lidando com dados, loops e mais",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "PHP",
+        "data_conclusao": "2 de outubro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "Python: Avançando na linguagem",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Python",
+        "data_conclusao": "15 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQH7VvMD6EFHRA/feedshare-shrink_800/0/1661295270244?e=1700092800&v=beta&t=8VgQQBanOrYVxoe3b-CmiR_kL4qOYzzloh2mqEQJo7Y"
+      },
+      {
+        "nome": "Python: Entendendo a orientação a objetos",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Python",
+        "data_conclusao": "18 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQH7VvMD6EFHRA/feedshare-shrink_800/0/1661295270244?e=1700092800&v=beta&t=8VgQQBanOrYVxoe3b-CmiR_kL4qOYzzloh2mqEQJo7Y"
+      },
+      {
+        "nome": "Python: avançando na orientação a objetos",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Python",
+        "data_conclusao": "20 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQFayqVjfqNYMA/feedshare-shrink_800/0/1661296285507?e=1700092800&v=beta&t=o_f2JXqZUrI4O6H_VRYMJsWzGqvVY-KvvC100sWTO-g"
+      },
+      {
+        "nome": "Python: começando com a linguagem",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Python",
+        "data_conclusao": "5 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQGSKXe_JpEiTw/feedshare-shrink_800/0/1659039242687?e=1700092800&v=beta&t=i2CN-L7lAU4ICQIDab69vYfkY6WOpzABKyWIBRkeM4U"
+      },
+      {
+        "nome": "REACT: DESENVOLVENDO COM JAVASCRIPT",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "React",
+        "data_conclusao": "8 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "React com JavaScript: Lidando com arquivos estáticos",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "React, JavaScript",
+        "data_conclusao": "18 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "React: Como os componentes funcionam",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "React",
+        "data_conclusao": "20 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "SEO: Otimização de sites",
+        "tipo": "Gestão",
+        "plataforma": "Alura",
+        "tecnologia": "",
+        "data_conclusao": "25 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "TDD no Django 3: Desenvolvimento guiado por testes",
+        "tipo": "Backend",
+        "plataforma": "Alura",
+        "tecnologia": "Django",
+        "data_conclusao": "12 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQGc9eO4yo2d2A/feedshare-shrink_1280/0/1662166191891?e=1700092800&v=beta&t=kOnIqEckV1SziepFgj-GGfzm2SJJCF7y6RemeTGYNLY"
+      },
+      {
+        "nome": "Python 3: Mundo 1 (Básico)",
+        "tipo": "Backend",
+        "plataforma": "Curso em Vídeo",
+        "tecnologia": "Python",
+        "data_conclusao": "2 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQF32Z2vvljfzQ/feedshare-shrink_800/0/1620692732115?e=1700092800&v=beta&t=Q_xAb82eUY-JPIOc7gkYg9CcUFg_B9D5azHYBkVG_QQ"
+      },
+      {
+        "nome": "Python 3: Mundo 2 (Intermediário)",
+        "tipo": "Backend",
+        "plataforma": "Curso em Vídeo",
+        "tecnologia": "Python",
+        "data_conclusao": "5 de outubro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "LinkedIn: Perfil campeão",
+        "tipo": "Gestão",
+        "plataforma": "FECAF",
+        "tecnologia": "LinkedIn",
+        "data_conclusao": "28 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQFypp4eub8HwA/feedshare-shrink_2048_1536/0/1612966864094?e=1700092800&v=beta&t=RyHq1n2z9IAbziwHz9WFZ2_rrFimSXUqBuQL06XY9e0"
+      },
+      {
+        "nome": "Formação Front-End",
+        "tipo": "Frontend",
+        "plataforma": "Alura",
+        "tecnologia": "",
+        "data_conclusao": "30 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQG7NbZa7sQCug/feedshare-shrink_800/0/1658949643852?e=1700092800&v=beta&t=iABahn2iHjReAsFzfnN5EslBvdMLHF14-1vdxaGDjWQ"
+      },
+      {
+        "nome": "Fundamentos das aplicações móveis",
+        "tipo": "Gestão",
+        "plataforma": "Fundação Bradesco",
+        "tecnologia": "Aplicações Móveis",
+        "data_conclusao": "18 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQEgPbbb63A4pw/feedshare-shrink_800/0/1612966370207?e=1700092800&v=beta&t=KWIxMAsceiEzsnvWGIjgkmcGyGF7a0qbl_xGeRpNY5U"
+      },
+      {
+        "nome": "Sistemas operacionais: Conceitos básicos",
+        "tipo": "Gestão",
+        "plataforma": "Fundação Bradesco",
+        "tecnologia": "Sistemas Operacionais",
+        "data_conclusao": "20 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQG0FJC61amYCw/feedshare-shrink_800/0/1612966719440?e=1700092800&v=beta&t=xQ-p1bJd3C-6KaEPJtpsREcXHMhkCgbfKCbssnQkWfo"
+      },
+      {
+        "nome": "InfoWay - Inglês Básico",
+        "tipo": "Idiomas",
+        "plataforma": "InfoWay",
+        "tecnologia": "Inglês",
+        "data_conclusao": "10 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "InfoWay - Inglês intermediário",
+        "tipo": "Idiomas",
+        "plataforma": "InfoWay",
+        "tecnologia": "Inglês",
+        "data_conclusao": "15 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "Iv2 Games - Imersão: Fábrica de games",
+        "tipo": "Gestão",
+        "plataforma": "Iv2 Games",
+        "tecnologia": "Desenvolvimento de Jogos",
+        "data_conclusao": "8 de outubro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4E22AQHUKVDS_D9gCQ/feedshare-shrink_800/0/1655491162821?e=1700092800&v=beta&t=sCkb45X0QnlGLQ_xYpXrvqXRUbkZBerrJMRVGcQuo9c"
+      },
+      {
+        "nome": "NODESTUDIO - CSS3 Para iniciantes",
+        "tipo": "Frontend",
+        "plataforma": "NODESTUDIO",
+        "tecnologia": "CSS3",
+        "data_conclusao": "22 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "NODESTUDIO - HTML5 Para iniciantes",
+        "tipo": "Frontend",
+        "plataforma": "NODESTUDIO",
+        "tecnologia": "HTML5",
+        "data_conclusao": "25 de setembro de 2023",
+        "horas": "",
+        "certificado": ""
+      },
+      {
+        "nome": "Senai - Lógica de programação",
+        "tipo": "Gestão",
+        "plataforma": "Senai",
+        "tecnologia": "Lógica de Programação",
+        "data_conclusao": "30 de setembro de 2023",
+        "horas": "",
+        "certificado": "https://media.licdn.com/dms/image/C4D22AQG_IGeUJavEVA/feedshare-shrink_2048_1536/0/1612966894910?e=1700092800&v=beta&t=m6PS0SEZX2eSbRYgjV3mEwe-i0AminLlupx1CmdOyqQ"
+      }
+    ]
+  }
+  
