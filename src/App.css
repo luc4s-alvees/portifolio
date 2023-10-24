@@ -38,6 +38,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+  overflow-x: hidden;
 }
 
 body {
@@ -142,7 +143,41 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-@media (max-width:580px) {
+@media (max-width: 1000px) {
+  .banner {
+    height: 150vh !important;
+  }
+
+.divSelects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: #00FFFF; */
+  width: 90vw;
+  margin: 0px auto;
+}
+.divSelects select {
+  width: 100%;
+  /* background-color: #fff; */
+  border: 2px solid #891dd1;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.select option {
+  color: #891dd1;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/* 
+  .project .nav.nav-pills .nav-item {
+    width: max-content;
+  } */
+  
+.project .nav.nav-pills {
+  width: 95% !important;
+}
+
   nav.navbar a.navbar-brand {
     /* margin-top: -20px; */
     /* width: 15%; */
@@ -359,6 +394,10 @@ span.navbar-text {
   border-radius: 10px;
 	position: absolute;
 }
+
+.navbar-toggler{
+  border:none;
+}
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
@@ -443,23 +482,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .profissao {
-  /* background-image: linear-gradient(to bottom, rgb(124, 0, 248), rgb(124, 0, 248), rgb(5, 22, 121));
-  color: black;
-  background-clip: text;
-  -webkit-background-clip: text; */
-
-  background-color: var(--violet1);
   background: linear-gradient(-45deg,  var(--violet3),var(--violet1), var(--violet2), var(--violet3)  );
-  
-  
-animation: gradient 5s ease infinite;
-  -webkit-background-clip: text;
+  animation: gradient 5s ease infinite;
+  transition: 0.3s ease-in-out;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
-
-  /* Adicionado: */
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .banner p {
   color: #B8B8B8;
@@ -591,10 +619,37 @@ animation: gradient 5s ease infinite;
   position: relative;
   background-color: black;
 }
+.divEdu {
+  border-bottom: solid 2px gray;
+  margin-bottom: 30px;
+}
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+}
+.project h3 {    
+  font-size: 30px;
+  font-weight: 700;
+  text-align: start;
+  background: linear-gradient(-45deg, var(--violet3),var(--violet1), var(--violet2), var(--violet3) );
+  animation: gradient 5s ease infinite;
+  transition: 0.3s ease-in-out;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.project h4  {    
+  font-size: 20px;
+  font-weight: 700;
+  text-align: start;
+  background: linear-gradient(-45deg, #fff, #B8B8B8, gray, #fff );
+  animation: gradient 5s ease infinite;
+  transition: 0.3s ease-in-out;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 .project p {
   color: #B8B8B8;
@@ -914,27 +969,15 @@ background-position: 0% 50%;
   color: #000;
 }
 .textInicio p {
-  font-size: 24px;
   margin: 0;
-  /* color: #000; */
   font-size: 70px;
-  /* text-align: start; */
   font-weight: 500;
-  /* transition: background-color 0.3s ease-in-out; */
-
-  
-  background-color: #000;
+  transition: background-color 0.3s ease-in-out;
   background: linear-gradient(-85deg,  #fff, #fff, #000  );
-  
-  
-animation: gradient 1s ease infinite;
-  -webkit-background-clip: text;
+  animation: gradient 1s ease infinite;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
-
-  /* Adicionado: */
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .imageInicio {

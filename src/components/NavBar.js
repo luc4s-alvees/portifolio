@@ -41,7 +41,7 @@ export const NavBar = () => {
             <img src={scrolled ? logo : logo} size={25} alt="Logo" className={scrolled ? 'z10 filterInvert0' : 'z10 filterInvert10'} style={{maxWidth: 300,}}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className={scrolled ? 'navbar-toggler-icon z10 filterInvert10' : 'navbar-toggler-icon z10 filterInvert0'}></span>
+            <span className={scrolled ? 'navbar-toggler-icon z10 filterInvert0' : 'navbar-toggler-icon z10 filterInvert10'}></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={scrolled ? "ms-auto colorWhite" : "ms-auto"}>

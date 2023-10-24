@@ -1,4 +1,21 @@
 {
+    "legenda": {
+      "tiposCursos" : [
+        "", "Frontend", "Backend", "Data Science", "Gestão", "Outros", "Cloud"
+      ],
+      "plataformas":[
+        "", "Alura", "Curso em Video", "NODESTUDIO", "Fundação Bradesco", "Senai"
+      ],
+      "tecnologias":{
+        "Frontend":["", "HTML","CSS", "ReactJS", "Bootstrap"],
+        "Backend":["", "JavaScript", "Python", "PHP", "NodeJS", "NestJS", "Django", "Ajax", "JQuery"],
+        "Data Science":["", "SQL Server", "MySQL", "PostgreSQL"],
+        "Gestão":[""],
+        "Cloud":["", "Docker"],
+        "Outros":[""]
+      }
+      
+    },
     "cursos": [
       {
         "nome": "Acessibilidade web parte 1: Tornando seu front-end inclusivo",
@@ -49,7 +66,7 @@
         "nome": "CSS: Simplificando layouts",
         "tipo": "Frontend",
         "plataforma": "Alura",
-        "tecnologia": "",
+        "tecnologia": "CSS",
         "data_conclusao": "12 de setembro de 2023",
         "horas": "",
         "certificado": "https://media.licdn.com/dms/image/C4E22AQGhj2V7NFBMrg/feedshare-shrink_800/0/1656525762104?e=1700092800&v=beta&t=drRacOFrASMleHFHEl3O3H1Gync9gx0R8cuMAeA_fNM"
@@ -103,7 +120,7 @@
         "nome": "HTML5 e CSS3 Parte 1: A primeira página da web",
         "tipo": "Frontend",
         "plataforma": "Alura",
-        "tecnologia": "HTML5, CSS3",
+        "tecnologia": ["HTML", "CSS"],
         "data_conclusao": "10 de setembro de 2023",
         "horas": "",
         "certificado": "https://media.licdn.com/dms/image/C4D22AQFnMDVb4HTDdg/feedshare-shrink_800/0/1646934156312?e=1700092800&v=beta&t=6BQlm09025XE_93x28c1icoaL8eH6gnwxazbq3uFrN0"
@@ -112,7 +129,7 @@
         "nome": "HTML5 e CSS3 Parte 2: Posicionamento, listas e navegação",
         "tipo": "Frontend",
         "plataforma": "Alura",
-        "tecnologia": "HTML5, CSS3",
+        "tecnologia": ["HTML", "CSS"],
         "data_conclusao": "15 de setembro de 2023",
         "horas": "",
         "certificado": "https://media.licdn.com/dms/image/C4D22AQFTLFwHTE8B_g/feedshare-shrink_800/0/1647208941785?e=1700092800&v=beta&t=VBOsX9xcDXK3DmRjTjgLCEtV6wZi_8qhY0Sc64bM2NA"
@@ -121,7 +138,7 @@
         "nome": "HTML5 e CSS3 Parte 3: Trabalhando com formulários e tabelas",
         "tipo": "Frontend",
         "plataforma": "Alura",
-        "tecnologia": "HTML5, CSS3",
+        "tecnologia": ["HTML", "CSS"],
         "data_conclusao": "20 de setembro de 2023",
         "horas": "",
         "certificado": "https://media.licdn.com/dms/image/C4D22AQHEPHbL0TX3kA/feedshare-shrink_2048_1536/0/1649773036136?e=1700092800&v=beta&t=qhEaq7Of8g2ueFOAyaGNNFSDov-qKmM72dLyATPYhFg"
@@ -130,7 +147,7 @@
         "nome": "HTML5 e CSS3 Parte 4: Avançando no css",
         "tipo": "Frontend",
         "plataforma": "Alura",
-        "tecnologia": "HTML5, CSS3",
+        "tecnologia": ["HTML", "CSS"],
         "data_conclusao": "25 de setembro de 2023",
         "horas": "",
         "certificado": "https://media.licdn.com/dms/image/C4D22AQGe0AhGmMh_TQ/feedshare-shrink_2048_1536/0/1649780250468?e=1700092800&v=beta&t=20AkWIHdbctnPR7QmMGkki_wvtM-UoZc4Gdurqdwkfw"
@@ -229,7 +246,7 @@
         "nome": "Layouts responsivos: Trabalhando com Layouts mobile",
         "tipo": "Frontend",
         "plataforma": "Alura",
-        "tecnologia": "CSS3",
+        "tecnologia": "CSS",
         "data_conclusao": "28 de setembro de 2023",
         "horas": "",
         "certificado": "https://media.licdn.com/dms/image/C5622AQEtgPeccr3I7g/feedshare-shrink_800/0/1655911032204?e=1700092800&v=beta&t=7JozwTK22t3riemGjBDWvEBb-QY_pUyoZoZ65DRekpY"
@@ -418,7 +435,7 @@
         "nome": "NODESTUDIO - CSS3 Para iniciantes",
         "tipo": "Frontend",
         "plataforma": "NODESTUDIO",
-        "tecnologia": "CSS3",
+        "tecnologia": "CSS",
         "data_conclusao": "22 de setembro de 2023",
         "horas": "",
         "certificado": ""
@@ -427,7 +444,7 @@
         "nome": "NODESTUDIO - HTML5 Para iniciantes",
         "tipo": "Frontend",
         "plataforma": "NODESTUDIO",
-        "tecnologia": "HTML5",
+        "tecnologia": "HTML",
         "data_conclusao": "25 de setembro de 2023",
         "horas": "",
         "certificado": ""

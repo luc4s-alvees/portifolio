@@ -1,3 +1,13 @@
+:root{
+  --violet1: #B14BF4;
+  --violet2: #891dd1;
+  --violet3: #5a01b3;
+  --green1: ;
+  --green2: ;
+  --green3: ;
+
+}
+
 .container-certificados {
     /* height: 100vh; */
     max-height: 700px;
@@ -153,6 +163,8 @@ border-top: 3px solid #4f00ff;
   .container-certificados_card__descricao {
     position: absolute;
     top: 135px;
+    /* height: 140px; */
+    /* background-color: aqua; */
     justify-content: space-around;
     display: flex;
     flex-direction: column;
@@ -293,7 +305,7 @@ border-top: 3px solid #4f00ff;
                  -20px -20px 60px #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .container-certificados {
     flex-direction: row;
     overflow-x: auto;
@@ -323,4 +335,21 @@ border-top: 3px solid #4f00ff;
   position: relative;
   /* margin: 0 20px; */
 }
+}
+.divSelects {
+  display: flex;
+  justify-content: space-around;
+}
+.select {
+  width: 25%;
+  margin: 0px auto;
+  background-color: transparent;
+  border: 2px solid #891dd1;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.select option {
+  color: #891dd1;
+  background-color: rgba(255, 255, 255, 0.1);
 }

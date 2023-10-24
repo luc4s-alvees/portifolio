@@ -15,6 +15,37 @@ import "../cursos.css"
 import { useState } from "react";
 
 export const Projects = () => {
+  window.onload = function () { 
+    // function iniciaSelect() {
+      const selectTipoCurso = document.getElementById("tipoCurso");
+      const tiposCursos = dadosCursos.legenda.tiposCursos;
+      console.log(tiposCursos)
+      console.log('Código JavaScript está sendo executado');
+      // Itera pelos tipos de cursos e cria as opções
+      // selectTipoCurso.removeChild()
+        tiposCursos.forEach(function (tipo) {
+            const option = document.createElement("option");
+            option.value = tipo; // Valor da opção
+            option.text = tipo;  // Texto visível da opção
+            selectTipoCurso.appendChild(option);
+        });
+      // }
+
+      
+      const selectPlataformas = document.getElementById("plataformas");
+      const plataformas = dadosCursos.legenda.plataformas;
+      console.log(plataformas)
+      console.log('Código JavaScript está sendo executado');
+      // Itera pelos tipos de cursos e cria as opções
+      // selectTipoCurso.removeChild()
+      plataformas.forEach(function (tipo) {
+            const option = document.createElement("option");
+            option.value = tipo; // Valor da opção
+            option.text = tipo;  // Texto visível da opção
+            selectPlataformas.appendChild(option);
+        });
+   } 
+
 
   const projects = [
     {
@@ -176,6 +207,87 @@ function DevOps(  ) {
   }))
 }
 
+
+// Obtém o elemento <select> pelo ID
+
+// Obtém a lista de tipos de cursos do JSON
+
+
+
+function mostraCards(){
+
+const selectTipoCurso = document.getElementById("tipoCurso");
+console.log(selectTipoCurso.value)
+const tipoCursoSelecionado = {cursos : dadosCursos.cursos.filter((curso) => curso.tipo == selectTipoCurso.value)};
+  setCursosFiltrados(tipoCursoSelecionado.cursos.map((curso, index) => {
+    return (
+      <CourseCard
+        key={index}
+        {...curso}
+        />
+    )
+  }))
+
+  const selectTecnologias = document.getElementById("tecnologias");
+  const tecnologias = dadosCursos.legenda.tecnologias[selectTipoCurso.value];
+  const qtdChilds = selectTecnologias.childElementCount;
+  for(let i = 0; i <= qtdChilds; i++){
+    console.log(selectTecnologias.childElementCount)
+    selectTecnologias.remove("option");
+  }
+  // // Itera pelos tipos de cursos e cria as opções
+  console.log(tecnologias)
+  tecnologias.forEach(function(tipo) {
+        const option = document.createElement("option");
+        option.value = tipo; // Valor da opção
+        option.text = tipo;  // Texto visível da opção
+        selectTecnologias.appendChild(option);
+    });
+
+
+}
+
+// const selectTecnologias = document.getElementById("tecnologias");
+// selectTecnologias.addEventListener('change', function() {
+//   // console.log("---------->",selectTecnologias.value)
+//   const tecnologiaSelecionada = {cursos : dadosCursos.cursos.filter((curso) => curso.tecnologia == selectTecnologias.value)};
+//     setCursosFiltrados(tecnologiaSelecionada.cursos.map((curso, index) => {
+//       return (
+//         <CourseCard
+//           key={index}
+//           {...curso}
+//           />
+//       )
+//     }))
+// });
+
+const selectTecnologias = document.getElementById("tecnologias");
+function mostraCardTecnologia(){
+  const tecnologiaSelecionada = {cursos : dadosCursos.cursos.filter((curso) => curso.tecnologia == selectTecnologias.value)};
+  setCursosFiltrados(tecnologiaSelecionada.cursos.map((curso, index) => {
+    return (
+      <CourseCard
+        key={index}
+        {...curso}
+        />
+    )
+  }))
+}
+
+function filtraPlataforma(){
+  const selectPlataformas= document.getElementById("plataformas");
+
+  const plataformaSelecionada = {cursos : dadosCursos.cursos.filter((curso) => curso.plataforma == selectPlataformas.value)};
+  setCursosFiltrados(plataformaSelecionada.cursos.map((curso, index) => {
+    return (
+      <CourseCard
+        key={index}
+        {...curso}
+        />
+    )
+  }))
+
+}
   return (
     <section className="project" id="project">
       <Container>
@@ -189,10 +301,10 @@ function DevOps(  ) {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Education</Nav.Link>
+                      <Nav.Link eventKey="first">Courses</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Extracurricular Course</Nav.Link>
+                      <Nav.Link eventKey="second">Education</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Projects</Nav.Link>
@@ -215,16 +327,56 @@ function DevOps(  ) {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="first">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <button className="download" onClick={Frontend}>Frontend</button>
+                      <div className="divEdu">
+                        <h3>MBA, Fullstack Development - Design, Engineering & Deployment</h3>
+                        <h4>UniFECAF | 2023</h4>
+                      </div>
+                      <div className="divEdu">
+                        <h3>Analysis and Systems Development</h3>
+                        <h4> UniFECAF | 2022</h4>
+                      </div>
+                      <div className="divEdu">
+                        <h3>English - Intermediate</h3>
+                        <h4>InfoWay | 2021</h4>
+                      </div>
+                      <div className="divEdu">
+                        <h3>English - Beginner</h3>
+                        <h4>InfoWay | 2022</h4>
+                      </div>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="first" >
+                      {/* <button className="download" onClick={Frontend}>Frontend</button>
                       <button className="download" onClick={Backend}>Backend</button>
                       <button className="download" onClick={Data}>Data</button>
                       <button className="download" onClick={Gestao}>Gestão</button>
-                      <button className="download" onClick={DevOps}>DevOps</button>
-                    <div class="container-certificados">
+                      <button className="download" onClick={DevOps}>DevOps</button> */}
+                      <div className="divSelects">
+                        <select 
+                          id="tipoCurso" 
+                          className="select" 
+                          
+                          onChange={mostraCards}>
+                          <option>Select a course type.</option>
+                        </select>
+
+                        <select 
+                          id="tecnologias"                         
+                          className="select" 
+
+                          onChange={mostraCardTecnologia}>
+                          <option>Select a technologie.</option>
+                        </select>
+                        
+                        <select 
+                          className="select" 
+                          id="plataformas" 
+                          onChange={filtraPlataforma}>
+                          <option>Select a plataform.</option>
+                        </select>
+
+                      </div>
+                    <div className="container-certificados">
                     {
                          cursosFiltrados2
                         }

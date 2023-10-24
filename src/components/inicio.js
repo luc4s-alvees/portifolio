@@ -53,8 +53,8 @@
     //     setIndex(prevIndex => prevIndex + 1);
     //   }
     // }
-    const modernity = <div class="glitch-wrapper">
-    <div class="glitch" data-text="Glitch Text">Glitch Text</div>
+    const modernity = <div className="glitch-wrapper">
+    <div className="glitch" data-text="Glitch Text">Glitch Text</div>
  </div>;
     const phrases = ["Aesthetic", "Performance", "Elegance", "Modernity"];
     const images = [
@@ -94,12 +94,12 @@
                 
                   <div className="bannerInicio">
                 
-                <div class="textInicio">
+                <div className="textInicio">
                     <h1>What do you expect from a website?</h1>
                     <p id="bannerText">Aesthetic</p>
                 </div>
                 
-                <div class="imageInicio">
+                <div className="imageInicio">
                   <div className="fundoImg">
                     <img id="bannerImage" src={aesthetic} alt="Banner Image"/>
                     </div>
